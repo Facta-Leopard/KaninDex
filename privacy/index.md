@@ -1,0 +1,146 @@
+# KaninDex Privacy Policy
+
+Last updated: May 4, 2026
+
+This page contains the KaninDex privacy policy in Korean, English, and German.
+
+---
+
+## 한국어
+
+### 개인정보 처리방침
+
+KaninDex는 사용자가 선택한 로컬 프로젝트의 코드 파일, 텍스트 기반 개발 파일, 프로젝트 구조, 심볼, 관계 정보, 위험 단서 및 사용자가 입력한 질문을 분석하여 코드 인덱스와 작전 보고서 형태의 설명을 제공하는 macOS 앱입니다.
+
+### 처리하는 정보
+
+KaninDex는 앱 기능 제공을 위해 다음 정보를 기기 내에서 처리할 수 있습니다.
+
+- 사용자가 선택한 프로젝트 폴더와 그 안의 코드, Markdown, JSON, YAML, 설정 파일 등 텍스트 기반 개발 파일
+- 파일 경로, 폴더 구조, 함수, 변수, 타입, 클래스, 의존 관계, 호출 관계 및 위험 단서
+- 사용자가 앱에서 입력한 질문, 대화 내용, 보고서 생성 옵션 및 앱 설정
+- Dex 사기 상태, 온보딩 선택, 마지막 정찰 시간 등 앱 경험을 위한 로컬 상태값
+
+### 외부 LLM 및 원격 처리
+
+KaninDex는 로컬 LLM을 사용할 경우 가능한 한 사용자의 기기 안에서 처리되도록 설계됩니다. 다만 사용자가 Codex OAuth, 외부 API, 클라우드 LLM 제공자 등 원격 제공자를 선택하고 동의하면, 기능 수행에 필요한 범위 안에서 질문, 보고서 문맥, 프로젝트 요약, 파일/심볼/관계 정보 및 필요한 코드 발췌가 선택한 외부 제공자에게 전송될 수 있습니다.
+
+외부 제공자의 데이터 처리, 보관 및 사용 방식은 해당 제공자의 약관과 개인정보 처리방침을 따를 수 있습니다. 민감한 코드, 비밀값, 자격 증명, 내부 문서가 포함된 프로젝트에는 외부 제공자 사용 여부를 신중히 결정해야 합니다.
+
+### 비밀값 및 자격 증명
+
+KaninDex는 코드 분석 과정에서 비밀값이나 자격 증명으로 보이는 문자열을 위험 단서로 표시할 수 있습니다. 사용자는 외부 제공자를 사용하기 전에 프로젝트에 API 키, 토큰, 비밀번호, 인증서 등 민감 정보가 포함되어 있지 않은지 확인해야 합니다.
+
+### 로컬 저장
+
+KaninDex는 보고서, 프로젝트 인덱스, 대화 기록, 앱 설정, 온보딩 상태 및 Dex 사기 상태를 사용자의 기기 로컬 저장소에 저장할 수 있습니다. OAuth 토큰이나 API 키 등 자격 증명은 가능한 경우 macOS Keychain 등 암호화된 저장소를 사용하도록 설계됩니다.
+
+### 문의 및 지원
+
+사용자가 이메일로 문의하면, 이메일 주소와 문의 내용이 개발자에게 전달됩니다. 이 정보는 문의 응대 및 지원 목적으로만 사용됩니다.
+
+### 수집하지 않는 정보
+
+KaninDex는 자체 광고 추적, 위치 정보 수집, 연락처 접근, 건강/피트니스 정보 수집, 결제 정보 수집, 사진/비디오/오디오 수집을 목적으로 설계되지 않았습니다. 별도 분석 SDK나 원격 진단 수집 기능을 추가하지 않는 한, 앱 사용 기록이나 충돌 로그를 개발자 서버로 전송하지 않습니다.
+
+### 사용자 선택권
+
+사용자는 로컬 제공자를 선택하거나, 원격 처리 동의를 보류하거나, 저장된 프로젝트 보고서와 대화 기록을 삭제할 수 있습니다. 앱을 삭제하면 기기 내에 저장된 앱 데이터도 macOS 동작 방식에 따라 제거될 수 있습니다.
+
+### 문의처
+
+개인정보 관련 문의: [shteosis@gmail.com](mailto:shteosis@gmail.com)
+
+---
+
+## English
+
+### Privacy Policy
+
+KaninDex is a macOS app that analyzes code files, text-based development files, project structure, symbols, relationships, risk clues, and user questions from a project folder selected by the user. It provides code indexes and operational reports that explain the project.
+
+### Information Processed
+
+KaninDex may process the following information on the user's device to provide app features.
+
+- Project folders selected by the user and text-based development files such as code, Markdown, JSON, YAML, and configuration files
+- File paths, folder structure, functions, variables, types, classes, dependencies, call relationships, and risk clues
+- Questions entered by the user, conversation content, report generation options, and app settings
+- Local app state such as Dex morale state, onboarding selections, and last recon time
+
+### External LLMs and Remote Processing
+
+When a local LLM is used, KaninDex is designed to keep processing on the user's device where possible. However, if the user selects and consents to a remote provider such as Codex OAuth, an external API, or a cloud LLM provider, KaninDex may send the information needed to perform the requested feature to the selected provider. This may include questions, report context, project summaries, file/symbol/relationship information, and necessary code excerpts.
+
+The selected external provider's own terms and privacy policy may govern how that provider processes, stores, and uses the transmitted data. Users should carefully decide whether to use remote providers for projects containing sensitive code, secrets, credentials, or internal documents.
+
+### Secrets and Credentials
+
+KaninDex may identify strings that appear to be secrets or credentials as risk clues during code analysis. Before using a remote provider, users should check whether the project contains API keys, tokens, passwords, certificates, or other sensitive information.
+
+### Local Storage
+
+KaninDex may store reports, project indexes, conversation history, app settings, onboarding state, and Dex morale state in local storage on the user's device. Credentials such as OAuth tokens or API keys are designed to use encrypted storage such as macOS Keychain where possible.
+
+### Support and Contact
+
+If a user contacts support by email, the user's email address and message content are sent to the developer. This information is used only to respond to the inquiry and provide support.
+
+### Information Not Collected
+
+KaninDex is not designed to collect information for advertising tracking, location tracking, contacts access, health or fitness data, payment information, photos, videos, or audio recordings. Unless a separate analytics SDK or remote diagnostics feature is added, KaninDex does not send app usage records or crash logs to a developer server.
+
+### User Choices
+
+Users may choose a local provider, defer remote processing consent, or delete stored project reports and conversation history. Deleting the app may remove locally stored app data according to normal macOS behavior.
+
+### Contact
+
+Privacy inquiries: [shteosis@gmail.com](mailto:shteosis@gmail.com)
+
+---
+
+## Deutsch
+
+### Datenschutzerklaerung
+
+KaninDex ist eine macOS-App, die Code-Dateien, textbasierte Entwicklungsdateien, Projektstruktur, Symbole, Beziehungen, Risikohinweise und Fragen des Nutzers aus einem vom Nutzer ausgewaehlten Projektordner analysiert. Die App erstellt Code-Indizes und Einsatzberichte, die das Projekt erklaeren.
+
+### Verarbeitete Informationen
+
+KaninDex kann die folgenden Informationen auf dem Geraet des Nutzers verarbeiten, um App-Funktionen bereitzustellen.
+
+- Vom Nutzer ausgewaehlte Projektordner und textbasierte Entwicklungsdateien wie Code, Markdown, JSON, YAML und Konfigurationsdateien
+- Dateipfade, Ordnerstruktur, Funktionen, Variablen, Typen, Klassen, Abhaengigkeiten, Aufrufbeziehungen und Risikohinweise
+- Vom Nutzer eingegebene Fragen, Gespraechsinhalte, Optionen zur Berichtserstellung und App-Einstellungen
+- Lokale App-Zustaende wie Dex-Moral, Onboarding-Auswahl und Zeitpunkt der letzten Aufklaerung
+
+### Externe LLMs und Remote-Verarbeitung
+
+Bei Verwendung eines lokalen LLM ist KaninDex so ausgelegt, dass die Verarbeitung soweit moeglich auf dem Geraet des Nutzers bleibt. Wenn der Nutzer jedoch einen Remote-Anbieter wie Codex OAuth, eine externe API oder einen Cloud-LLM-Anbieter auswaehlt und zustimmt, kann KaninDex die fuer die gewuenschte Funktion notwendigen Informationen an den ausgewaehlten Anbieter senden. Dazu koennen Fragen, Berichtskontext, Projektzusammenfassungen, Datei-/Symbol-/Beziehungsinformationen und notwendige Codeauszuege gehoeren.
+
+Die Bedingungen und Datenschutzerklaerungen des ausgewaehlten externen Anbieters koennen regeln, wie dieser Anbieter die uebermittelten Daten verarbeitet, speichert und nutzt. Nutzer sollten sorgfaeltig entscheiden, ob Remote-Anbieter fuer Projekte mit sensiblem Code, Geheimnissen, Zugangsdaten oder internen Dokumenten verwendet werden sollen.
+
+### Geheimnisse und Zugangsdaten
+
+KaninDex kann Zeichenfolgen, die wie Geheimnisse oder Zugangsdaten aussehen, waehrend der Codeanalyse als Risikohinweise markieren. Vor der Verwendung eines Remote-Anbieters sollten Nutzer pruefen, ob das Projekt API-Schluessel, Token, Passwoerter, Zertifikate oder andere sensible Informationen enthaelt.
+
+### Lokale Speicherung
+
+KaninDex kann Berichte, Projektindizes, Gespraechsverlauf, App-Einstellungen, Onboarding-Status und Dex-Moral lokal auf dem Geraet des Nutzers speichern. Zugangsdaten wie OAuth-Token oder API-Schluessel sind so konzipiert, dass nach Moeglichkeit verschluesselte Speicher wie die macOS Keychain verwendet werden.
+
+### Support und Kontakt
+
+Wenn ein Nutzer per E-Mail Kontakt aufnimmt, werden die E-Mail-Adresse und der Nachrichteninhalt an den Entwickler uebermittelt. Diese Informationen werden nur zur Beantwortung der Anfrage und fuer Supportzwecke verwendet.
+
+### Nicht gesammelte Informationen
+
+KaninDex ist nicht dafuer ausgelegt, Informationen fuer Werbe-Tracking, Standortverfolgung, Kontaktzugriff, Gesundheits- oder Fitnessdaten, Zahlungsinformationen, Fotos, Videos oder Audioaufnahmen zu sammeln. Sofern kein separates Analyse-SDK oder Remote-Diagnosefeature hinzugefuegt wird, sendet KaninDex keine App-Nutzungsdaten oder Absturzprotokolle an einen Entwicklerserver.
+
+### Wahlmoeglichkeiten des Nutzers
+
+Nutzer koennen einen lokalen Anbieter waehlen, die Zustimmung zur Remote-Verarbeitung aufschieben oder gespeicherte Projektberichte und Gespraechsverlaeufe loeschen. Beim Loeschen der App koennen lokal gespeicherte App-Daten gemaess dem normalen Verhalten von macOS entfernt werden.
+
+### Kontakt
+
+Datenschutzanfragen: [shteosis@gmail.com](mailto:shteosis@gmail.com)
